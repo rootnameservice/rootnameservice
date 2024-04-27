@@ -12,11 +12,11 @@
   "exports": {
     ".": {
       "import": "./dist/main.js",
-      "require": "./dist/main.cjs"
+      "require": "./dist/main.es.js"
     },
     "./logger": {
       "import": "./dist/logger.js",
-      "require": "./dist/logger.cjs"
+      "require": "./dist/logger.es.js"
     }
   },
   "scripts": {
