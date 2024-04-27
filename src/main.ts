@@ -1,6 +1,19 @@
 
 import { Address } from 'viem'
 
+export const networks = {
+  porcini: {
+    name: 'Porcini',
+    chainId: 7672,
+    ensAddress: '0xA931c1F9621ECa562c258B81bF9fA8401f12241B',
+  },
+  root: {
+    name: 'Root',
+    chainId: 7668,
+    ensAddress: '', // TODO: add the address
+  },
+}
+
 export const addresses = {
   7672: {
     // necessary to meet the interface requirements
