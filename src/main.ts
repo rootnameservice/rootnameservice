@@ -10,20 +10,12 @@ export const networks = {
   root: {
     name: 'Root',
     chainId: 7668,
-    ensAddress: '', // TODO: add the address
+    ensAddress: '0xEC58C26B8E0A4bc0fe1ad21D216e4ecAd9e037A8',
   },
 }
 
 export const addresses = {
-  7672: {
-    // necessary to meet the interface requirements
-    ensDnsRegistrar: {
-      address: '0xB32cB5677a7C971689228EC835800432B339bA2B' as Address,
-    },
-    // necessary to meet the interface requirements
-    ensDnssecImpl: {
-      address: '0x0fc3152971714E5ed7723FAFa650F86A4BaF30C5' as Address,
-    },
+  7672: { // Porcini
     ensBaseRegistrarImplementation: {
       address: '0x4420F023F0133F741e182f721b1DC2D3942fcb5A' as Address,
     },
@@ -48,10 +40,31 @@ export const addresses = {
     ensUniversalResolver: {
       address: '0xB3c0AE882b35E72B7b84F7A1E0cF01fBDC617170' as Address,
     },
-    // necessary to meet the interface requirements
-    multicall3: {
-      address: '0xca11bde05977b3631167028862be2a173976ca11' as Address,
-      blockCreated: 14_353_601,
+  },
+  7668: { // Root
+    ensBaseRegistrarImplementation: {
+      address: "0xEeD3C3c547751e23020f4cb506FbA37baEb3308D" as Address,
+    },
+    ensBulkRenewal: {
+      address: "0x0193eFBF9504422700295C022766891b0b10049F" as Address,
+    },
+    ensEthRegistrarController: {
+      address: "0xc85E5802BADE56Facb93bb373da6bA7c1902b19c" as Address,
+    },
+    ensNameWrapper: {
+      address: "0x44640D662A423d738D5ebF8B51E57AfC0f2cf4Df" as Address,
+    },
+    ensPublicResolver: {
+      address: "0x870bC2604D6EAC536c791A603bFDE1A1448e168e" as Address,
+    },
+    ensRegistry: {
+      address: "0xEC58C26B8E0A4bc0fe1ad21D216e4ecAd9e037A8" as Address,
+    },
+    ensReverseRegistrar: {
+      address: "0xfFF7719aaB38eadE6A1CfdA864a174B715e9d673" as Address,
+    },
+    ensUniversalResolver: {
+      address: "0x7808dF0A1F1d58c6Ad0F3bA07E749D730F02f13A" as Address,
     },
   },
 }
