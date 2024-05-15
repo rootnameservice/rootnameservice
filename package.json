@@ -1,35 +1,23 @@
 {
   "name": "rootnameservice",
   "private": false,
-  "version": "0.0.4",
-  "main": "./dist/main.js",
-  "type": "module",
-  "types": "./dist/main.d.ts",
+  "version": "0.0.6",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist",
     "README.md"
   ],
-  "exports": {
-    ".": {
-      "import": "./dist/main.js",
-      "require": "./dist/main.es.js"
-    },
-    "./logger": {
-      "import": "./dist/logger.js",
-      "require": "./dist/logger.es.js"
-    }
-  },
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "tsup"
   },
+  "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.2.2",
-    "vite": "^5.2.0"
+    "tsup": "^8.0.2",
+    "typescript": "^5.2.2"
   },
   "dependencies": {
-    "viem": "^2.9.25",
-    "vite-plugin-dts": "^3.9.0"
+    "viem": "^2.9.25"
   }
 }

@@ -1,28 +1,8 @@
 {
   "compilerOptions": {
-    "lib": ["ESNext"],
-    "module": "esnext",
-    "target": "esnext",
-    "moduleDetection": "force",
-    "outDir": "./dist",
-    "skipLibCheck": true,
-    "strict": true,
-
-    // /* Bundler mode */
-    "moduleResolution": "bundler",
-    // "allowImportingTsExtensions": true,
-    // "resolveJsonModule": true,
-    // "isolatedModules": true,
-    // "noEmit": true,
-    // "declaration": true,
-    // "declarationDir": "./dist",
-
-    // /* Linting */
-    // "noUnusedLocals": true,
-    // "noUnusedParameters": true,
-    // "noFallthroughCasesInSwitch": true,
-    // "useDefineForClassFields": true
-    
-  },
-  "include": ["src"]
+      "preserveValueImports": false,
+      "module": "CommonJS",
+      "esModuleInterop": true,
+      "strictNullChecks": true
+  }
 }
