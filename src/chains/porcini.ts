@@ -25,7 +25,7 @@ export const porcini = defineChain({
     },
     subgraphs: {
         ens: {
-            url: 'https://subgraph.rootnameservice.com/subgraphs/name/graphprotocol/ens'
+            url: 'https://subgraph-stage.rootnameservice.com/subgraphs/name/graphprotocol/ens'
         }
     },
     testnet: true,
