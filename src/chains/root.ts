@@ -19,8 +19,8 @@ export const root = defineChain({
         },
         ...addresses[7668],
         multicall3: {
-            address: '0xca11bde05977b3631167028862be2a173976ca11' as Address,
-            blockCreated: 14_353_601,
+            address: '0xB5c68a77ec2d7ea4E7599cc167164Bd79E4d58eF' as Address,
+            blockCreated: 13_546_153,
         },
     },
     subgraphs: {
